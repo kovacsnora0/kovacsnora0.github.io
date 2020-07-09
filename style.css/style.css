@@ -1,0 +1,54 @@
+#nav{
+    margin: 10px, 0;
+}#nav ul{
+    overflow: hidden;
+    background-color: black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li{
+    float: left;
+}
+#nav a{
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 0.7em 2em;
+    font-weight: bold;
+
+}
+#nav a.active{
+    background: #393;
+}
+#nav li:last-child{
+    float: right;
+}
+#nav a:hover{
+    background: #555;
+}
+html{
+    background-color: cornsilk;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+
+}
+#térkép {
+    text-align: center;
+}
+#leírás{
+    text-align: justify;
+}
+#étteremkép{
+    float: right;  
+    position: sticky;
+    width: 550px; height: auto;
+    margin: 10px;
+
+}
+
+
+
+
+
