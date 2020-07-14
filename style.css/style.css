@@ -37,9 +37,7 @@ html{
 #térkép {
     text-align: center;
 }
-#leírás{
-    text-align: justify;
-}
+
 #étteremkép{
     float: right;  
     position: sticky;
@@ -47,6 +45,52 @@ html{
     margin: 10px;
 
 }
+table{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    float:center;
+    border: solid 2px;
+    margin: 0 auto;
+ }
+.étlap{
+    text-align: center;
+}
+h4{
+    font-weight: bolder;
+    color: lightcoral;
+    margin: 15px 15px 15px 15px
+}
+#price{
+    text-align: right;
+}
+img{
+    float: right;
+}
+.card{
+    width: 25%;
+    height: auto;
+}
+.gomb{
+    position:absolute;
+bottom:0;
+right:0;
+z-index:0;
+}
+h2{
+    text-align: center;
+    margin: 15px 15px 15px 15px
+}
+div{
+    margin: 15px 15px 15px 15px
+}
+.form-check{
+    float: center;
+}
+
+
+
+
 
 
 
